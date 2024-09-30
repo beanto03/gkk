@@ -62,7 +62,7 @@ public class User {
         if (borrowedBooks.isEmpty()) {
             System.out.println(name + " has not borrowed any books.");
         } else {
-            System.out.println(name + "'s Borrowed Books: " + borrowedBooks);
+            System.out.println(name + "'s borrowed Books: " + borrowedBooks);
         }
     }
 
