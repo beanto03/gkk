@@ -4,9 +4,9 @@ public class Main {
         Library library = new Library();
 
         // Create some books
-        Book book1 = new Book("Harry Potter", "J.K. Rowling", "12345");
-        Book book2 = new Book("Lord of the Rings", "J.R.R. Tolkien", "67890");
-        Book book3 = new Book("The Catcher in the Rye", "J.D. Salinger", "11223");
+        Book book1 = new Book("Sofea Jane", "Black Hanifah", "12345");
+        Book book2 = new Book("Nike Ardilla", "Saari Amri", "67890");
+        Book book3 = new Book("Transformers", "Michael Bay", "11223");
 
         // Add books to the library
         library.addBook(book1);
@@ -14,16 +14,16 @@ public class Main {
         library.addBook(book3);
 
         // Create some users
-        User user1 = new User("Alice", 25);
-        User user2 = new User("Bob", 30);
+        User user1 = new User("Sophia", 25);
+        User user2 = new User("Nadia", 30);
 
         // Add users to the library system
         library.addUser(user1);
         library.addUser(user2);
 
         // Borrow books
-        library.borrowBook(user1, "Harry Potter");
-        library.borrowBook(user2, "Lord of the Rings");
+        library.borrowBook(user1, "Sofea Jane");
+        library.borrowBook(user2, "Nike Ardilla");
 
         System.out.println("Welcome to Laman Norsham Library");
         System.out.println("Please choose desired menu :");
