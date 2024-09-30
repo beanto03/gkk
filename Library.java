@@ -13,7 +13,6 @@ public class Library {
     // Method to add a book to the library
     public void addBook(Book book) {
         books.add(book);
-        System.out.println("Added book: " + book.getTitle());
     }
 
     // Method to search for books by title
@@ -29,7 +28,6 @@ public class Library {
     // Method to add a user to the library
     public void addUser(User user) { //Declare object User kat sini
         users.add(user);
-        System.out.println("User added: " + user.getName());
     }
 
     // List available books
@@ -48,7 +46,6 @@ public class Library {
             if (book.getTitle().equals(title) && book.isAvailable()) {
                 book.setAvailable(false);
                 user.borrowBook(title);
-                System.out.println(user.getName() + " borrowed " + title);
                 return;
             }
         }
